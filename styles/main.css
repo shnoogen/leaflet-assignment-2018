@@ -1,0 +1,49 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  background: #dbfef5;
+  color: #000;
+  margin: 0;
+  text-align: center;
+}
+h1{
+  font-family: 'Hammersmith One', helvetica, sans-serif;
+}
+
+p{
+  font-family: 'Open Sans', helvetica, sans-serif;
+  max-width: 500px;
+  margin: 0.5rem;
+}
+
+#container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#mapid {
+  height: 500px;
+  width: 550px;
+  align-items: center;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  #mapid {
+    height: 300px;
+    width: 350px;
+    margin: 0;
+  }
+
+  p {
+    max-width: 350px;
+  }
+}
